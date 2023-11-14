@@ -1,85 +1,115 @@
 *{
     margin: 0;
-    padding: 0;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;    
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;      
+}
+
+header nav {
+  padding: 10px;
+  position: relative; /* position relative para que los elementos absolutos respeten este contenedor */
+  width: 100%;
 }
 
 .navbar-custom {
-    background-color: #F7FAFD; /* color de fondo */
-    color: #333333; /* color del texto */
+    background-color: #F7FAFD;
+    color: #333333;
     font-weight: bolder;
-    height: 90px;           
+    height: 90px;
   }
 
-  .navbar-brand {
+.navbar-brand img {
     width: 120px;
   }
 
-/*.navbar-custom a:hover { 
+.navbar-custom a:hover { 
     color: #FF556E;
-  } Funciona pero el hover no se mantiene al hacer clic en menú desplagable*/
+  }
 
-.rounded-pill {      
-    border: 2px solid #FF556E; /* color del borde botón */
+.navbar-button {      
+    border: 2px solid #FF556E;
     background-color: #F7FAFD;    
-    border-radius: 20px; /* para hacerlo más o menos ovalado */
-    padding: 5px 25px; /* el espacio alrededor del texto del botón */
+    border-radius: 20px;
+    padding: 5px 25px;
     color: #FF556E;
     font-weight: bold;
     text-align: center;
-    text-decoration: none;      
+    text-decoration: none;
+    display: flex;
+    align-items: center;          
   }
-
+  
 
 /* BANNER */
 
-
-
-
-
-
-/* BANNER 
-
-#banner {    
-    background-color: rgb(95, 213, 243);
-    height: 30vh;
-    background-size:cover;
-    background-position: center;    
+#container-diamont {
+  width: 2%;
+  margin-left: 3%;
+  margin-top: 2%;
 }
 
-.content-banner {
-  position: relative;
-  height: 100%;
+#container-circle {
+  width: 3%;
+  margin-left: 3%;
+}
+
+/*.green-diamond {
+  width: 2%;
+  margin-left: 3%;
+  
+}
+
+.yellow-circle {
+  width: 3%;
+  margin-left: 100%;
+}*/
+
+.container {    
+  background-color: rgb(71, 206, 83);  
+  width: 100%;
+  margin: 0 auto;
+}
+
+.row-banner h1 {
+  color: #333333;
+  font-weight: bolder;
+  font-size: 70px;
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  align-items: center;
+  text-align: center;  
 }
 
-.content-banner h1 {  
-  color: #333333;  
-  font-size: 50px;
-  font-weight: bolder; 
-  padding: 10px 0; 
-}
-
-.content-banner h2 {
-  color: #7D7D7D;  
+.row-banner p {
+  color: #7D7D7D;
+  font-weight: lighter;
   font-size: 20px;
-  font-weight:normal; 
-  padding: 10px 0; 
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
 }
 
-.button-banner {
+.banner-button {
+  display: inline-block;
+  margin: 5px; /* margen entre los botones */ 
+  padding: 10px 40px;
   text-decoration: none;
-  color: #FFFFFF;
+  border: 2px solid #FF556E;
   background-color: #FF556E;
-  border: 3px solid #FF556E;
-  padding: 1px 20px;
-  align-self: baseline;
-}*/
+  border-radius: 40px;  
+  color: #FFFFFF;
+  font-weight: bold; 
+}
+
+.row-img-telefono img {
+  margin-top: 15%;
+  width: 100%;
+}
+
+
 
 
 
