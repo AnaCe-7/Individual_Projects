@@ -4,13 +4,11 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
-  width: 100%;      
 }
 
 header nav {
-  padding: 10px;
-  position: relative; /* position relative para que los elementos absolutos respeten este contenedor */
-  width: 100%;
+  width: 60%;
+  margin: auto;
 }
 
 .navbar-custom {
@@ -44,7 +42,7 @@ header nav {
 
 /* BANNER */
 
-#container-diamont {
+/*#container-diamont {
   width: 2%;
   margin-left: 3%;
   margin-top: 2%;
@@ -53,26 +51,56 @@ header nav {
 #container-circle {
   width: 3%;
   margin-left: 3%;
-}
-
-/*.green-diamond {
-  width: 2%;
-  margin-left: 3%;
-  
-}
-
-.yellow-circle {
-  width: 3%;
-  margin-left: 100%;
 }*/
 
 .container {    
-  background-color: rgb(71, 206, 83);  
-  width: 100%;
+  background-color: rgb(77, 168, 83);  
+  width: 60%;
   margin: 0 auto;
+  height: 50vh;
 }
 
-.row-banner h1 {
+.description-banner-container {
+  background-color: #F7FAFD;  
+  width: 80%;
+  margin: 0 auto;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.description-banner-container h1 {
+  color: #333333;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center; 
+}
+
+.description-banner-container p {
+  color: #7D7D7D;
+  font-weight: lighter;
+  font-size: 20px;
+  text-align: center;
+}
+
+.banner-button {
+  border: 2px solid #FF556E;
+  background-color: #FF556E;
+  border-radius: 40px;  
+  color: #FFFFFF;
+  font-weight: bold; 
+  margin: 5px; /* margen entre los botones */ 
+  padding: 10px 40px;
+  text-decoration: none;
+}
+
+
+
+/*.row-banner h1 {
   color: #333333;
   font-weight: bolder;
   font-size: 70px;
@@ -106,8 +134,21 @@ header nav {
 
 .row-img-telefono img {
   margin-top: 15%;
-  width: 100%;
+  width: 100%;*/
 }
+
+/* ICONOS */
+
+.landing-option {
+  border: solid 1px #EBE7FA;
+  width: 50%;
+  height: 50%;
+  border-radius: 20%;
+  background-color: #7055d1;
+  text-align: center;
+}
+
+
 
 
 
