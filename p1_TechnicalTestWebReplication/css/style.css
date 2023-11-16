@@ -8,6 +8,7 @@ body {
 }
 
 /* NAVBAR */
+
 header nav {
   width: 60%;
   margin: auto;
@@ -44,6 +45,7 @@ header nav {
 }
 
 /* BANNER */
+
 .banner-container {
   /*background-color: rgb(97, 171, 240);  */
   max-width: 50%;
@@ -91,7 +93,7 @@ p {
 }
 
 .iphone-container img{
-  width: 1200px;
+  max-width: 50%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -106,8 +108,8 @@ p {
   display: flex;
   flex-direction: row;
   text-align: center;
-  background-color: rgb(236, 229, 122);
-  height: 500px;
+  background-color: rgb(230, 228, 207);
+  height: 300px;
   
 }
 
@@ -118,16 +120,41 @@ p {
   display: flex;
   flex-direction: row;
   text-align: center;
-  background-color: #ec4e4e;
+  background-color: #FFFFFF;
 }
 
 .card-circle {
   display: flex;
   flex-direction: column;
   border-radius: 50%;
-  background-color: #ec5e5e;
+  background-color: #d4d4d4;
   width: 10vw;
   height: 10vh;
+}
+
+.icon-users {
+  color: #aa7eec; 
+  font-size: 2em;
+}
+
+.icon-code {
+  color: #19ca94; 
+  font-size: 2em;
+}
+
+.icon-gear {
+  color: #FF556E; 
+  font-size: 2em;
+}
+
+.icon-comments {
+  color: #ffb30f; 
+  font-size: 2em;
+}
+
+.icon-rocket {
+  color: #4fb9e8; 
+  font-size: 2em;
 }
 
 .card-text {
@@ -140,29 +167,22 @@ p {
   
 }
 
-.icon-users {
-  display: flex;
-  align-items: center;
-  align-items: end;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-}
 
-i {
-  font-size: 3em;
-}
+
 
 
 /* FOOTER */
+
+.footer {
+  border-top: 2px solid #333333;
+  padding: 0px 5px;
+}
+
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.footer {
-  background-color: #F7FAFD;
-  padding: 80px 0;
+ /* background-color: #81b5e9; */
+  padding: 10px 5px;
 }
 
 .footer-row {
@@ -170,29 +190,29 @@ i {
   flex-wrap: wrap;
 }
 
-.footer-links {
+.footer-elements {
   width: 25%;
   padding: 0 15px;
 }
 
-.footer-links h4 {
-  font-size: 2em;
+.footer-elements h4 {
+  font-size: 1.5em;
   color: #999999;
-  margin-bottom: 2vh;
   font-weight: bolder;
   display: inline-block;
 }
 
-.footer-links ul li a {
+.footer-elements ul li a {
   font-size: 1.5em;
   text-decoration: none;
   color: #999999;
   display: block;
+  margin-bottom: 0;
   transition: all .3s ease;
 }
 
 .footer-links ul li a {
-  color: #999999;
+  color: #333333;
   padding-left: 6px;
 }
 
@@ -205,6 +225,12 @@ i {
   text-align: center;
   border-radius: 50%;
   transition: all .5s ease;
+}
+
+.footer-elements span {
+  font-size: 20px;
+  text-decoration: none;
+  color: #999999;  
 }
 
 
