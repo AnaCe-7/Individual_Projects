@@ -118,7 +118,7 @@ p {
   height: 20vh;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: center;
   background-color: #FFFFFF;
 }
@@ -128,7 +128,7 @@ p {
   flex-direction: column;
   border-radius: 50%;
   background-color: #d4d4d4;
-  width: 10vw;
+  width: 5vw;
   height: 10vh;
 }
 
@@ -166,10 +166,6 @@ p {
   justify-content: end;
   
 }
-
-
-
-
 
 /* FOOTER */
 
