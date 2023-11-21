@@ -12,7 +12,6 @@ body {
 header nav {
   width: 60%;
   margin: auto;
-
 }
 
 .navbar-custom {
@@ -47,7 +46,7 @@ header nav {
 /* BANNER */
 
 .banner-container {
-  /*background-color: rgb(97, 171, 240);  */
+  /*background-color: rgb(97, 171, 240); */
   max-width: 50%;
   margin: 0 auto;
   padding: 2% 8%;
@@ -110,7 +109,6 @@ p {
   text-align: center;
   background-color: rgb(230, 228, 207);
   height: 300px;
-  
 }
 
 .cards-container {
@@ -164,7 +162,6 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: end;
-  
 }
 
 /* FOOTER */
@@ -228,10 +225,6 @@ p {
   text-decoration: none;
   color: #999999;  
 }
-
-
-
-
 
 
 
